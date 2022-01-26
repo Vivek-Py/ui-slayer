@@ -1,0 +1,5 @@
+/* Reset CSS */
+@import url(./components/base/reset.css);
+
+/* Add avatar styles */
+@import url(./components/avatar/avatarStyles.css);
