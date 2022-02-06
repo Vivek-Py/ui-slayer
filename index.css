@@ -3,3 +3,6 @@
 
 /* Add avatar styles */
 @import url(./components/avatar/avatar.css);
+
+/* Add alert styles */
+@import url(./components/alert/alert.css);
