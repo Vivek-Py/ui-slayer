@@ -1,8 +1,14 @@
 /* Reset CSS */
 @import url(./components/base/reset.css);
 
+/* Get root styles */
+@import url(./components/base/root.css);
+
 /* Add avatar styles */
 @import url(./components/avatar/avatar.css);
 
 /* Add alert styles */
 @import url(./components/alert/alert.css);
+
+/* Add badges styles */
+@import url(./components/badges/badges.css);

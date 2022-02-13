@@ -1,0 +1,71 @@
+/* To wrap badges and icons/avatars */
+.badge-wrapper {
+  position: relative;
+  width: min-content;
+  padding: 0;
+}
+
+/* Common styles for all the badges */
+[class*="badge__"] {
+  position: absolute;
+  height: 1em;
+  aspect-ratio: 1 / 1;
+
+  border-radius: 50%;
+  background: var(--notification);
+
+  padding: 0.2em;
+  font-size: 0.4em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Apply to icon badges*/
+[class*="badge__icon"] {
+  top: 0;
+}
+
+[class*="--right"] {
+  right: 0;
+}
+
+[class*="--left"] {
+  left: 0;
+}
+
+/* Select badge avatar preceeded by xsm/sm/md/lg avatar */
+.avatar--xsm ~ [class*="badge__avatar"] {
+  height: 1em;
+  right: 3em;
+  bottom: 3em;
+}
+
+.avatar--sm ~ [class*="badge__avatar"] {
+  height: 2em;
+  right: 3em;
+  bottom: 3em;
+}
+
+.avatar--md ~ [class*="badge__avatar"] {
+  height: 3em;
+  right: 4em;
+  bottom: 4em;
+}
+
+.avatar--lg ~ [class*="badge__avatar"] {
+  height: 5em;
+  right: 4em;
+  bottom: 4em;
+}
+
+.offline {
+  background: var(--offline);
+}
+
+.online {
+  background: var(--online);
+}
+
+.icon {
+  padding: 0.25em;
+}
