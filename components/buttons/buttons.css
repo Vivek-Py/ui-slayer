@@ -1,0 +1,81 @@
+/* Basic styles for all the buttons */
+[class*="-btn"] {
+  border: none;
+  border-radius: 0.3rem;
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+/* Base styles for all the disabled buttons */
+[class*="-btn"]:disabled {
+  background-color: var(--grey);
+  pointer-events: none;
+}
+
+[class*="-btn"]:disabled > .fa {
+  background-color: var(--white);
+  color: var(--grey);
+}
+
+/* Base styles for hover state in buttons */
+[class*="-btn"]:hover {
+  transform: scale(1.1);
+}
+
+/* Base styles for focus state in buttons */
+[class*="-btn"]:focus {
+  transform: scale(0.9);
+}
+
+.primary-btn {
+  background-color: var(--primary);
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.primary-btn:focus {
+  background-color: var(--primary-hover);
+}
+
+.secondary-btn {
+  background-color: var(--action);
+}
+
+.secondary-btn:hover {
+  background-color: var(--action-hover);
+}
+
+.secondary-btn:focus {
+  background-color: var(--action-hover);
+}
+
+.floating-action-btn {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  background-color: var(--primary);
+}
+
+.icon-btn {
+  background-color: var(--white);
+  padding: 0;
+}
+
+.link-btn {
+  display: inline-block;
+  width: min-content;
+  border: 1px solid var(--black);
+  background: none;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.link-btn.disabled {
+  border: 1px solid var(--grey);
+  background: none;
+  color: var(--grey);
+  pointer-events: none;
+  cursor: pointer;
+}

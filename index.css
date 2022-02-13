@@ -12,3 +12,6 @@
 
 /* Add badges styles */
 @import url(./components/badges/badges.css);
+
+/* Add button styles */
+@import url(./components/buttons/buttons.css);
