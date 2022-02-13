@@ -1,12 +1,32 @@
 :root {
   /* Base colors */
+  --primary: #ff3b30;
+  --secondary: #fff6ea;
+  --action: #3b82f6;
+  --grey: #9a9a9a;
+  --black: #282828;
+  --white: #ffffff;
+  --lynxwhite: #f7f7f7;
+  --violet: #5348c7;
+  --lynxgray: #c5c5c5;
+
+  /* Additional colors */
+  --primary-hover: #ff3a30c0;
+  --action-hover: #3b83f6bb;
   --success: #d4edda;
   --error: #f8d7da;
   --warning: #fff3cd;
   --info: #d1ecf1;
-
-  /* Additional colors */
   --notification: #ffdd6e;
   --online: rgb(68, 173, 68);
   --offline: rgb(211, 97, 97);
+}
+
+/* Absolute positioning right/left */
+[class*="--right"] {
+  right: 0;
+}
+
+[class*="--left"] {
+  left: 0;
 }

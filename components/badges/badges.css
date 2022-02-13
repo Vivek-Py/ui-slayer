@@ -25,14 +25,6 @@
   top: 0;
 }
 
-[class*="--right"] {
-  right: 0;
-}
-
-[class*="--left"] {
-  left: 0;
-}
-
 /* Select badge avatar preceeded by xsm/sm/md/lg avatar */
 .avatar--xsm ~ [class*="badge__avatar"] {
   height: 1em;
