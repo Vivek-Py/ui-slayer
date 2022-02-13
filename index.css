@@ -15,3 +15,6 @@
 
 /* Add button styles */
 @import url(./components/buttons/buttons.css);
+
+/* Add image styles */
+@import url(./components/images/images.css);
