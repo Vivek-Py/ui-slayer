@@ -1,0 +1,27 @@
+/* Wrapper for rating system */
+.rating-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+/* Label to position icon over input */
+.rating-label {
+  position: relative;
+}
+
+.rating-check {
+  visibility: hidden;
+}
+
+.rating-star {
+  color: var(--lynxgray);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* If input checked, change start color */
+.rating-check:checked + .rating-star {
+  color: var(--primary);
+}

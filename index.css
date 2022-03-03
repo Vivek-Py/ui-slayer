@@ -16,5 +16,34 @@
 /* Add button styles */
 @import url(./components/buttons/buttons.css);
 
+/* Add card styles */
+@import url(./components/card/card.css);
+
 /* Add image styles */
 @import url(./components/images/images.css);
+
+/* Add input styles */
+@import url(./components/input/input.css);
+
+/* Add list styles */
+@import url(./components/lists/lists.css);
+
+/* Add navigation styles */
+@import url(./components/navigation/navigation.css);
+
+/* Add modal styles */
+@import url(./components/modal/modal.css);
+
+/* Add rating styles */
+@import url(./components/rating/rating.css);
+
+/* Add toast styles */
+@import url(./components/toast/toast.css);
+
+/* Add grid styles */
+@import url(./components/grid/grid.css);
+
+/* Add utilities - Typography */
+@import url(./components/utilities/headings.css);
+@import url(./components/utilities/text.css);
+@import url(./components/utilities/typography.css);

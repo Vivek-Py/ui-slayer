@@ -1,0 +1,33 @@
+/* Adding default styles for the lists */
+.ul-list {
+  list-style: disc;
+}
+
+.ol-list {
+  list-style: decimal;
+}
+
+/* Stacked list */
+.stacked-list {
+  display: flex;
+  flex-flow: column nowrap;
+  /* Making sure list style is none */
+  list-style: none !important;
+}
+
+/* Additional list styles */
+.low-roman-style {
+  list-style: lower-roman;
+}
+
+.up-roman-style {
+  list-style: upper-roman;
+}
+
+.disc-style {
+  list-style-type: disc;
+}
+
+.square-style {
+  list-style-type: square;
+}
