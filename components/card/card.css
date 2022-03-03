@@ -1,0 +1,66 @@
+/*  Wrapper for the card */
+.card-wrapper {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.19), 0 3px 8px rgba(0, 0, 0, 0.23);
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.card-img-vertical {
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img-horizontal {
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* For vertical card style */
+.vertical {
+  flex-flow: column nowrap;
+  max-width: 350px;
+}
+
+/* For horizontal card style */
+.horizontal {
+  flex-flow: row nowrap;
+  max-width: 100%;
+
+  justify-content: space-between;
+}
+
+.card-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: var(--primary-hover);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  padding: 0.5rem;
+  color: var(--white);
+}
+
+.card-dismiss-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background: var(--primary-hover);
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  padding: 0.5rem;
+  color: var(--white);
+}

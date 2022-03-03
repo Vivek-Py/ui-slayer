@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Specify navigation item flow direction - Row & Column */
+.row {
+  flex-flow: row wrap;
+}
+
+.column {
+  flex-flow: column wrap;
+}
+
+/* Nav menu styles */
+.nav {
+  display: flex;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+/* Justify navigation items as per requirement */
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+[class*="nav-"] {
+  text-decoration: none;
+}

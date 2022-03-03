@@ -1,0 +1,22 @@
+.toast {
+  position: fixed;
+  bottom: 1rem;
+  left: 3rem;
+
+  margin: 0;
+  padding: 0.5rem;
+
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--white);
+  border: 1px solid var(--lynxgray);
+  border-radius: 10px;
+}
+
+.toast-btn {
+  color: var(--black);
+  background: transparent;
+  transform: none;
+}
