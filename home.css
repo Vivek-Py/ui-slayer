@@ -17,12 +17,6 @@ a {
   text-transform: uppercase;
 }
 
-a:hover,
-a:active,
-a:focus {
-  outline: 0;
-}
-
 .navbar {
   padding: 0;
 }
