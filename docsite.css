@@ -16,6 +16,17 @@ mark {
   padding: 0.5rem;
 }
 
+iframe {
+  display: block;
+  max-height: 15rem;
+  width: 100%;
+  margin: auto;
+
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
 p.text-sm {
   line-height: 2rem !important;
 }
