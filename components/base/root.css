@@ -20,6 +20,8 @@
   --notification: #ffdd6e;
   --online: rgb(68, 173, 68);
   --offline: rgb(211, 97, 97);
+
+  --item-hover: #6fa0ee6e;
 }
 
 /* Absolute positioning right/left */
@@ -29,4 +31,11 @@
 
 [class*="--left"] {
   left: 0;
+}
+
+/* No outline for links */
+a:hover,
+a:active,
+a:focus {
+  outline: 0;
 }

@@ -7,354 +7,710 @@
     <title>UI Slayer demo</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./docsite.css" />
-
     <script
       src="https://kit.fontawesome.com/35549b5c74.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <h1>Avatar</h1>
-    <img
-      loading="lazy"
-      class="avatar--lg"
-      src="https://picsum.photos/200"
-      alt="Sample Avatar"
-    />
-    <img
-      loading="lazy"
-      class="avatar--md"
-      src="https://picsum.photos/200"
-      alt="Sample Avatar"
-    />
-    <img
-      loading="lazy"
-      class="avatar--sm"
-      src="https://picsum.photos/200"
-      alt="Sample Avatar"
-    />
-    <img
-      loading="lazy"
-      class="avatar--xsm"
-      src="https://picsum.photos/200"
-      alt="Sample Avatar"
-    />
-    <h1>Alert</h1>
-    <div class="alert--success">This is success alert</div>
-    <div class="alert--error">This is error alert</div>
-    <div class="alert--warning">This is warning alert</div>
-    <div class="alert--info">This is info alert</div>
-    <h1>Badges on icons</h1>
-    <div class="badge-wrapper">
-      <i class="fas fa-envelope-square fa-2x icon">
-        <div class="badge__icon--right">1</div>
-      </i>
-    </div>
-    <div class="badge-wrapper">
-      <i class="fas fa-envelope-square fa-3x icon">
-        <div class="badge__icon--right">2</div>
-      </i>
-    </div>
-    <div class="badge-wrapper">
-      <i class="fas fa-envelope-square fa-4x icon">
-        <div class="badge__icon--right">3</div>
-      </i>
-    </div>
-    <div class="badge-wrapper">
-      <i class="fas fa-envelope-square fa-5x icon">
-        <div class="badge__icon--right">4</div>
-      </i>
-    </div>
-
-    <h1>Badges on avatars</h1>
-    <div class="badge-wrapper">
-      <img
-        loading="lazy"
-        class="avatar--lg"
-        src="https://picsum.photos/200"
-        alt="Sample Avatar"
-      />
-      <div class="badge__avatar--lg--right offline"></div>
-    </div>
-
-    <div class="badge-wrapper">
-      <img
-        loading="lazy"
-        class="avatar--md"
-        src="https://picsum.photos/200"
-        alt="Sample Avatar"
-      />
-      <div class="badge__avatar--right online"></div>
-    </div>
-
-    <div class="badge-wrapper">
-      <img
-        loading="lazy"
-        class="avatar--sm"
-        src="https://picsum.photos/200"
-        alt="Sample Avatar"
-      />
-      <div class="badge__avatar--sm--right online"></div>
-    </div>
-
-    <div class="badge-wrapper">
-      <img
-        loading="lazy"
-        class="avatar--xsm"
-        src="https://picsum.photos/200"
-        alt="Sample Avatar"
-      />
-      <div class="badge__avatar--right offline"></div>
-    </div>
-
-    <h1>Buttons</h1>
-    <button class="primary-btn">Primary</button>
-    <button disabled class="primary-btn">Primary</button>
-    <button class="secondary-btn">Secondary</button>
-    <button disabled class="secondary-btn">Secondary</button>
-    <a class="link-btn">Link</a>
-    <a class="link-btn disabled">Link</a>
-    <button class="icon-btn">
-      <i class="fa fa-solid fa-play" style="color: black"> &nbsp;Play</i>
-    </button>
-    <button disabled class="icon-btn">
-      <i class="fa fa-solid fa-play">&nbsp;Play</i>
-    </button>
-    <!-- <button class="floating-action-btn">Need help?</button> -->
-
-    <h1>Images</h1>
-    <img
-      loading="lazy"
-      class="responsive-img"
-      src="https://picsum.photos/2140/200"
-      alt="responsive image"
-    />
-    <img
-      loading="lazy"
-      class="rounded-img"
-      src="https://picsum.photos/100"
-      alt="rounded images"
-    />
-
-    <div class="input-wrapper">
-      <label for="example-one">Input</label>
-      <input
-        type="number"
-        name="example-one"
-        class="input"
-        placeholder="Try entering 'e' to see validation style"
-      />
-    </div>
-
-    <ul class="ul-list square-style">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ul>
-
-    <ol class="ol-list up-roman-style">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ol>
-
-    <ol class="ol-list up-roman-style">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <ol class="ol-list low-roman-style">
-        <li>Sub Item One</li>
-        <li>Sub Item Two</li>
-      </ol>
-    </ol>
-
-    <ul class="stacked-list low-roman-style">
-      <li>awdawdaw</li>
-      <li>awdawd</li>
-      <li>awdawdaw</li>
-    </ul>
+  <body class="doc-body">
     <div class="navbar row">
-      <a
-        class="nav-brand"
-        href="http://"
-        target="_blank"
-        rel="noopener noreferrer"
-        >NAV BRAND</a
-      >
-      <div class="nav row justify-start">
-        <a
-          class="nav-item"
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
+      <a class="nav-brand" href="./index.html" rel="noopener noreferrer"
+        ><img src="./assets/navbrand.png" alt="" srcset=""
+      /></a>
+      <div class="nav row justify-end">
+        <a class="nav-item header" href="./index.html" rel="noopener noreferrer"
           >Home</a
         >
         <a
-          class="nav-item"
-          href="http://"
+          class="nav-item header"
+          href="./docsite.html"
           target="_blank"
           rel="noopener noreferrer"
-          >About</a
-        >
-        <a
-          class="nav-item"
-          href="http://"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Contact</a
+          >Docs</a
         >
       </div>
     </div>
+    <div class="grid-2 doc">
+      <aside class="sidebar">
+        <ul class="stacked-list">
+          <li class="item">Avatar</li>
+          <li class="item">Alert</li>
+          <li class="item">Badge</li>
+          <ul class="stacked-list">
+            <li class="item">Badge on Icons</li>
+            <li class="item">Badge on Avatars</li>
+          </ul>
+          <li class="item">Button</li>
+          <ul class="stacked-list">
+            <li class="item">Primary</li>
+            <li class="item">Link</li>
+            <li class="item">Icon Button</li>
+            <li class="item">Floating Action Button</li>
+          </ul>
+          <li class="item">Card</li>
+          <ul class="stacked-list">
+            <li class="item">Cards with badges</li>
+            <li class="item">Cards with dismiss</li>
+            <li class="item">Cards with text overlay</li>
+            <li class="item">Text only cards</li>
+            <li class="item">Vertical/Horizontal cards</li>
+            <li class="item">Cards with shadow</li>
+          </ul>
+          <li class="item">Image</li>
+          <ul class="stacked-list">
+            <li class="item">Responsive image</li>
+            <li class="item">Round image</li>
+          </ul>
+          <li class="item">Input</li>
+          <ul class="stacked-list">
+            <li class="item">Textbox</li>
+            <li class="item">With validation and error style</li>
+          </ul>
+          <li class="item">Text Utilities</li>
+          <ul class="stacked-list">
+            <li class="item">Heading</li>
+            <li class="item">Small text</li>
+            <li class="item">Gray text</li>
+            <li class="item">Center text</li>
+          </ul>
+          <li class="item">Lists</li>
+          <ul class="stacked-list">
+            <li class="item">Spaced</li>
+            <li class="item">Stacked</li>
+          </ul>
 
-    <dialog close class="modal">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corrupti,
-      fugiat laborum itaque nam ad quo? Eum soluta quisquam perferendis quo?
-      Adipisci, necessitatibus consequuntur pariatur nisi exercitationem nobis
-      soluta alias.
-    </dialog>
+          <li class="item">Navigation</li>
+          <ul class="stacked-list">
+            <li class="item">Desktop</li>
+            <li class="item">Submenus</li>
+            <li class="item">Hamburger/Drawer</li>
+          </ul>
+          <li class="item">Modal</li>
+          <li class="item">Rating</li>
+          <li class="item">Toast</li>
+          <li class="item">Simplified grid</li>
+          <ul class="stacked-list">
+            <li class="item">Two items in a grid</li>
+            <li class="item">Three items in a grid</li>
+          </ul>
+          <li class="item">Slider</li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <!-- Avatar tag start here -->
+        <h2 class="h2">Avatar</h2>
+        <p class="text-sm">
+          Avatars are user profile pictures, usually found in circular shapes.
+          Avatars can be used for 'container' objects — projects, spaces,
+          repositories, etc — to give them a recognizable visual identity. These
+          representations are used for the attention grabbing on various social
+          medias too. There are four sizes available:
+          <mark>avatar--xsm</mark> , <mark>avatar--sm</mark>,
+          <mark>avatar--md</mark> & <mark>avatar--lg</mark>.
+        </p>
+        <div class="example-container">
+          <img
+            loading="lazy"
+            class="avatar--lg"
+            src="https://picsum.photos/200"
+            alt="Sample Avatar"
+          />
+          <img
+            loading="lazy"
+            class="avatar--md"
+            src="https://picsum.photos/200"
+            alt="Sample Avatar"
+          />
+          <img
+            loading="lazy"
+            class="avatar--sm"
+            src="https://picsum.photos/200"
+            alt="Sample Avatar"
+          />
+          <img
+            loading="lazy"
+            class="avatar--xsm"
+            src="https://picsum.photos/200"
+            alt="Sample Avatar"
+          />
+        </div>
 
-    <div class="rating-wrapper">
-      <label class="rating-label">
-        <input type="checkbox" class="rating-check" checked disabled />
-        <i class="fa fa-solid fa-star rating-star"></i>
-      </label>
-      <label class="rating-label">
-        <input type="checkbox" class="rating-check" checked disabled />
-        <i class="fa fa-solid fa-star rating-star"></i>
-      </label>
-      <label class="rating-label">
-        <input type="checkbox" class="rating-check" checked disabled />
-        <i class="fa fa-solid fa-star rating-star"></i>
-      </label>
-      <label class="rating-label">
-        <input type="checkbox" class="rating-check" disabled />
-        <i class="fa fa-solid fa-star rating-star"></i>
-      </label>
-      <label class="rating-label">
-        <input type="checkbox" class="rating-check" disabled />
-        <i class="fa fa-solid fa-star rating-star"></i>
-      </label>
-    </div>
+        <!-- Alert tag start here -->
+        <h2 class="h2">Alert</h2>
+        <p class="text-sm">
+          Alerts make it possible for user's to be up to date with information
+          that matters the most. By using alerts, you provide contextual
+          feedback messages to your users, depending on actions performed by
+          them. There are four types of alert available:
+          <mark>alert--success</mark> , <mark>alert--warning</mark>,
+          <mark>alert--error</mark> & <mark>alert--info</mark>.
+        </p>
 
-    <div class="toast">
-      <p class="toast-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
-      <button class="toast-btn">&cross;</button>
-    </div>
+        <div class="example-container column">
+          <div class="alert--success">This is success alert</div>
+          <div class="alert--error">This is error alert</div>
+          <div class="alert--warning">This is warning alert</div>
+          <div class="alert--info">This is info alert</div>
+        </div>
 
-    <div class="grid-2">
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minima
-        tenetur omnis amet excepturi, quis unde nulla ipsum! Incidunt, impedit
-        tempore. At sapiente totam harum ipsum necessitatibus quam quae. Ipsum!
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minima
-        tenetur omnis amet excepturi, quis unde nulla ipsum! Incidunt, impedit
-        tempore. At sapiente totam harum ipsum necessitatibus quam quae. Ipsum!
-      </section>
-    </div>
+        <!-- Badges start here -->
 
-    <div class="grid-3">
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minima
-        tenetur omnis amet excepturi, quis unde nulla ipsum! Incidunt, impedit
-        tempore. At sapiente totam harum ipsum necessitatibus quam quae. Ipsum!
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minima
-        tenetur omnis amet excepturi, quis unde nulla ipsum! Incidunt, impedit
-        tempore. At sapiente totam harum ipsum necessitatibus quam quae. Ipsum!
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum minima
-        tenetur omnis amet excepturi, quis unde nulla ipsum! Incidunt, impedit
-        tempore. At sapiente totam harum ipsum necessitatibus quam quae. Ipsum!
-      </section>
-    </div>
+        <h2 class="h2">Badges</h2>
+        <p class="text-sm">
+          Badges are small circles, positioned either at top-right or
+          bottom-right of the parent component. Badge can be used to display
+          numbers, online / offline status, depending on where they are used.
+        </p>
+        <h3 class="h3">Badges on icons</h3>
+        <p class="text-sm">
+          Badges on icons are totally
+          <mark> dependent on the Icon size</mark> so you don't have to worry
+          about sizing.
+        </p>
+        <div class="example-container row">
+          <div class="badge-wrapper">
+            <i class="fas fa-envelope-square fa-2x icon">
+              <div class="badge__icon--right">1</div>
+            </i>
+          </div>
+          <div class="badge-wrapper">
+            <i class="fas fa-envelope-square fa-3x icon">
+              <div class="badge__icon--right">2</div>
+            </i>
+          </div>
+          <div class="badge-wrapper">
+            <i class="fas fa-envelope-square fa-4x icon">
+              <div class="badge__icon--right">3</div>
+            </i>
+          </div>
+          <div class="badge-wrapper">
+            <i class="fas fa-envelope-square fa-5x icon">
+              <div class="badge__icon--right">4</div>
+            </i>
+          </div>
+        </div>
 
-    <div class="card-wrapper vertical">
-      <h2 class="h2">Lorem Ipsum</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos
-        dolores sed molestiae numquam impedit expedita, suscipit, quia quo hic,
-        dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-        eos dolores sed molestiae numquam impedit expedita, suscipit, quia quo
-        hic, dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet.
-      </p>
-    </div>
+        <h3 class="h3">Badges on avatars</h3>
+        <p class="text-sm">
+          Badges on avatars are available in four sizes:
+          <mark>badge__avatar--lg</mark>, <mark>badge__avatar--md</mark>,
+          <mark>badge__avatar--sm</mark> & <mark>badge__avatar--xsm</mark> for
+          use with respective avatar size.
+        </p>
+        <div class="example-container row">
+          <div class="badge-wrapper">
+            <img
+              loading="lazy"
+              class="avatar--lg"
+              src="https://picsum.photos/200"
+              alt="Sample Avatar"
+            />
+            <div class="badge__avatar--lg--right offline"></div>
+          </div>
 
-    <div class="card-wrapper horizontal">
-      <h2 class="h2">Lorem Ipsum</h2>
-      <div class="grid-2">
-        <button class="primary-btn">Lorem</button>
-        <button class="secondary-btn">Ipsum</button>
-      </div>
-    </div>
+          <div class="badge-wrapper">
+            <img
+              loading="lazy"
+              class="avatar--md"
+              src="https://picsum.photos/200"
+              alt="Sample Avatar"
+            />
+            <div class="badge__avatar--right online"></div>
+          </div>
 
-    <div class="card-wrapper vertical">
-      <div class="card-badge">New</div>
-      <h2 class="h2">Lorem Ipsum</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos
-        dolores sed molestiae numquam impedit expedita, suscipit, quia quo hic,
-        dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-        eos dolores sed molestiae numquam impedit expedita, suscipit, quia quo
-        hic, dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet.
-      </p>
-    </div>
-    <div class="card-wrapper vertical">
-      <button class="card-dismiss-btn">&cross;</button>
-      <h2 class="h2">Lorem Ipsum</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos
-        dolores sed molestiae numquam impedit expedita, suscipit, quia quo hic,
-        dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-        eos dolores sed molestiae numquam impedit expedita, suscipit, quia quo
-        hic, dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet.
-      </p>
-    </div>
+          <div class="badge-wrapper">
+            <img
+              loading="lazy"
+              class="avatar--sm"
+              src="https://picsum.photos/200"
+              alt="Sample Avatar"
+            />
+            <div class="badge__avatar--sm--right online"></div>
+          </div>
+          <div class="badge-wrapper">
+            <img
+              loading="lazy"
+              class="avatar--xsm"
+              src="https://picsum.photos/200"
+              alt="Sample Avatar"
+            />
+            <div class="badge__avatar--right offline"></div>
+          </div>
+        </div>
 
-    <div class="card-wrapper vertical no-padding">
-      <img
-        class="card-img-vertical responsive-img"
-        loading="lazy"
-        src="https://picsum.photos/350/150"
-        alt="Sample Avatar"
-      />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos
-        dolores sed molestiae numquam impedit expedita, suscipit, quia quo hic,
-        dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-        eos dolores sed molestiae numquam impedit expedita, suscipit, quia quo
-        hic, dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet.
-      </p>
-    </div>
+        <h3 class="h3">Badges positioning and color</h3>
+        <p class="text-sm">
+          You can adjust the positioning of badges on left and right using
+          <mark>--right</mark> and <mark>--left</mark>. You can also adjust the
+          color of the badge on avatar using <mark>online</mark> and
+          <mark>offline</mark>.
+        </p>
 
-    <div class="card-wrapper horizontal no-padding">
-      <img
-        class="card-img-horizontal responsive-img"
-        loading="lazy"
-        src="https://picsum.photos/350/150"
-        alt="Sample Avatar"
-      />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos
-        dolores sed molestiae numquam impedit expedita, suscipit, quia quo hic,
-        dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-        eos dolores sed molestiae numquam impedit expedita, suscipit, quia quo
-        hic, dignissimos non tempora! Beatae mollitia magnam, blanditiis totam
-        eveniet.
-      </p>
+        <h2 class="h2">Buttons</h2>
+        <p class="text-sm">
+          Buttons are essential to the working of any website. They allow users
+          to perform multiple actions on a website, from triggering actions to
+          accessing different parts of a website. There are multiple types of
+          button your can use: <mark>primary-btn</mark>,
+          <mark>secondary-btn</mark>, <mark>link-btn</mark>,
+          <mark>icon-btn</mark> & <mark>floating-action-btn</mark>(which is
+          visible at the bottom right corner.)
+        </p>
+        <div class="example-container row grid-2">
+          <button class="primary-btn">Primary</button>
+          <button disabled class="primary-btn">Primary</button>
+          <button class="secondary-btn">Secondary</button>
+          <button disabled class="secondary-btn">Secondary</button>
+          <a class="link-btn">Link</a>
+          <a class="link-btn disabled">Link</a>
+          <button class="icon-btn">
+            <i class="fa fa-solid fa-play" style="color: black"> &nbsp;Play</i>
+          </button>
+          <button disabled class="icon-btn">
+            <i class="fa fa-solid fa-play">&nbsp;Play</i>
+          </button>
+          <button class="floating-action-btn">Need help?</button>
+        </div>
+
+        <h2 class="h2">Images</h2>
+        <p class="text-sm">
+          Graphical or pictorial representation on every website is very
+          essential which we can achieve with the following classes:
+          <mark>responsive-img</mark> & <mark>rounded-img</mark>.
+        </p>
+        <div class="grid-example-container">
+          <img
+            loading="lazy"
+            class="responsive-img"
+            src="https://picsum.photos/2140/200"
+            alt="responsive image"
+          />
+          <img
+            loading="lazy"
+            class="rounded-img"
+            src="https://picsum.photos/100"
+            alt="rounded images"
+          />
+        </div>
+
+        <h2 class="h2">Input</h2>
+        <p class="text-sm">
+          Inputs allow website users to enter or share their information, across
+          many usecases. Generally used for sign-up/login, user input and
+          feedback as well.
+        </p>
+        <div class="input-wrapper">
+          <label for="example-one">Label</label>
+          <input
+            type="number"
+            name="example-one"
+            class="input"
+            placeholder="Try entering 'e' to see validation style"
+          />
+        </div>
+
+        <h2 class="h2">Lists</h2>
+        <p class="text-sm">
+          Lists are very useful in documenting the details and also presenting
+          data in arranged manner. There are many types of list that you can use
+          like <mark>spaced lists</mark>, <mark>stacked list</mark> &
+          <mark>nested list</mark>.
+        </p>
+
+        <h3 class="h3">Spaced list</h3>
+        <div class="example-container row">
+          <ul class="ul-list square-style">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+          </ul>
+
+          <ol class="ol-list up-roman-style">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+          </ol>
+        </div>
+        <h3 class="h3">Stacked list</h3>
+        <div class="example-container row">
+          <ul class="stacked-list">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+          </ul>
+        </div>
+
+        <h3 class="h3">Nested lists</h3>
+        <div class="example-container row">
+          <ol class="ol-list up-roman-style">
+            <li>Item One</li>
+            <li>Item Two</li>
+            <ol class="ol-list low-roman-style">
+              <li>Sub Item One</li>
+              <li>Sub Item Two</li>
+            </ol>
+          </ol>
+        </div>
+
+        <h2 class="h2">Navigation</h2>
+        <p class="text-sm">
+          Navigation Bars are really important for navigating through websites
+          and help users to go through different pages.
+        </p>
+
+        <h3 class="h3">Nav bar - Left aligned items</h3>
+        <div class="example-container column">
+          <div class="navbar row">
+            <a
+              class="nav-brand"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >NAV BRAND</a
+            >
+            <div class="nav row justify-start">
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Home</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <h3 class="h3">Nav bar - center aligned items</h3>
+        <div class="example-container column">
+          <div class="navbar row">
+            <a
+              class="nav-brand"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >NAV BRAND</a
+            >
+            <div class="nav row justify-center">
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Home</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <h3 class="h3">Nav bar - Right aligned items</h3>
+        <div class="example-container column">
+          <div class="navbar row">
+            <a
+              class="nav-brand"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >NAV BRAND</a
+            >
+            <div class="nav row justify-end">
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Home</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About</a
+              >
+              <a
+                class="nav-item"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <h2 class="h2">Modal</h2>
+        <p class="text-sm">
+          A modal is a dialog box/popup window that is displayed on top of the
+          current page.
+        </p>
+        <div class="example-container row">
+          <button id="modal-btn" class="primary-btn">Open Modal</button>
+        </div>
+        <dialog close class="modal">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          corrupti, fugiat laborum itaque nam ad quo? Eum soluta quisquam
+          perferendis quo? Adipisci, necessitatibus consequuntur pariatur nisi
+          exercitationem nobis soluta alias.
+          <button id="close-modal-btn" class="secondary-btn">
+            Close &cross;
+          </button>
+        </dialog>
+
+        <h2 class="h2">Rating</h2>
+        <p class="text-sm">
+          A very useful tool to work on for increasing customer interaction and
+          their interactivity. Ratings provide insight about various aspects of
+          your website, allowing your users to share their opinions about any
+          item or service.
+        </p>
+        <div class="example-container">
+          <div class="rating-wrapper">
+            <label class="rating-label">
+              <input type="checkbox" class="rating-check" checked disabled />
+              <i class="fa fa-solid fa-star rating-star"></i>
+            </label>
+            <label class="rating-label">
+              <input type="checkbox" class="rating-check" checked disabled />
+              <i class="fa fa-solid fa-star rating-star"></i>
+            </label>
+            <label class="rating-label">
+              <input type="checkbox" class="rating-check" checked disabled />
+              <i class="fa fa-solid fa-star rating-star"></i>
+            </label>
+            <label class="rating-label">
+              <input type="checkbox" class="rating-check" disabled />
+              <i class="fa fa-solid fa-star rating-star"></i>
+            </label>
+            <label class="rating-label">
+              <input type="checkbox" class="rating-check" disabled />
+              <i class="fa fa-solid fa-star rating-star"></i>
+            </label>
+          </div>
+        </div>
+
+        <h2 class="h2">Toast</h2>
+        <p class="text-sm">
+          Toast provide brief messages about various processes at the bottom of
+          the screen. These can range from simple messages to also having
+          trigger buttons.
+        </p>
+        <div class="toast">
+          <p class="toast-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="example-container">
+          <button id="toast-btn" class="primary-btn">Show toast</button>
+        </div>
+
+        <h2 class="h2">Grid</h2>
+        <p class="text-sm">
+          Grids are really amazing and useful for creating layouts. We can
+          design whole website with the help of this and also you would not need
+          to worry much about the responsiveness.
+        </p>
+        <h3 class="h3">Grid-2</h3>
+        <p class="text-sm">
+          This example shows two column grid, you can create the same using
+          <mark>grid-2</mark>.
+        </p>
+        <div class="example-container">
+          <div class="grid-2">
+            <section>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              minima tenetur omnis amet excepturi, quis unde nulla ipsum!
+              Incidunt, impedit tempore. At sapiente totam harum ipsum
+              necessitatibus quam quae. Ipsum!
+            </section>
+            <section>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              minima tenetur omnis amet excepturi, quis unde nulla ipsum!
+              Incidunt, impedit tempore. At sapiente totam harum ipsum
+              necessitatibus quam quae. Ipsum!
+            </section>
+          </div>
+        </div>
+
+        <h3 class="h3">Grid-3</h3>
+        <p class="text-sm">
+          This example shows three column grid, you can create the same using
+          <mark>grid-3</mark>.
+        </p>
+        <div class="example-container">
+          <div class="grid-3">
+            <section>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              minima tenetur omnis amet excepturi, quis unde nulla ipsum!
+              Incidunt, impedit tempore. At sapiente totam harum ipsum
+              necessitatibus quam quae. Ipsum!
+            </section>
+            <section>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              minima tenetur omnis amet excepturi, quis unde nulla ipsum!
+              Incidunt, impedit tempore. At sapiente totam harum ipsum
+              necessitatibus quam quae. Ipsum!
+            </section>
+            <section>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              minima tenetur omnis amet excepturi, quis unde nulla ipsum!
+              Incidunt, impedit tempore. At sapiente totam harum ipsum
+              necessitatibus quam quae. Ipsum!
+            </section>
+          </div>
+        </div>
+
+        <h2 class="h2">Cards</h2>
+        <p class="text-sm">
+          Cards play a key role in showing data in a concise manner. Mostly seen
+          on E-Commerce websites like amazon and flipkart, cards are used to
+          create product illustration, alongwith information and may also come
+          with multiple action buttons.
+        </p>
+        <h3 class="h3">Vertical Card</h3>
+        <div class="example-container row">
+          <div class="card-wrapper vertical">
+            <h2 class="h2">Lorem Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+          <div class="card-wrapper vertical no-padding">
+            <img
+              class="card-img responsive-img"
+              loading="lazy"
+              src="https://picsum.photos/350/150"
+              alt="Sample Avatar"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="h3">Horizontal Card</h3>
+        <div class="example-container column">
+          <div class="card-wrapper horizontal">
+            <h2 class="h2">Lorem Ipsum</h2>
+            <div class="grid-2">
+              <button class="primary-btn">Lorem</button>
+              <button class="secondary-btn">Ipsum</button>
+            </div>
+          </div>
+          <div class="card-wrapper horizontal no-padding">
+            <img
+              class="card-img responsive-img"
+              loading="lazy"
+              src="https://picsum.photos/350/150"
+              alt="Sample Avatar"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="h3">Card with badges and dismiss</h3>
+        <div class="example-container row">
+          <div class="card-wrapper vertical">
+            <div class="card-badge">New</div>
+            <h2 class="h2">Lorem Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+          <div class="card-wrapper vertical">
+            <button class="card-dismiss-btn">&cross;</button>
+            <h2 class="h2">Lorem Ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="h3">Card with text overlay</h3>
+        <div class="example-container">
+          <div class="card-wrapper vertical no-padding">
+            <div class="overlay-container">
+              <img
+                class="card-img responsive-img overlay"
+                loading="lazy"
+                src="https://picsum.photos/id/1019/350/150"
+                alt="Sample Avatar"
+              />
+              <p class="text-overlay">Text Overlay</p>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+              eos dolores sed molestiae numquam impedit expedita, suscipit, quia
+              quo hic, dignissimos non tempora! Beatae mollitia magnam,
+              blanditiis totam eveniet Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Vitae eos dolores sed molestiae numquam impedit
+              expedita, suscipit, quia quo hic, dignissimos non tempora! Beatae
+              mollitia magnam, blanditiis totam eveniet.
+            </p>
+          </div>
+        </div>
+      </main>
     </div>
+    <script src="./docsite.js"></script>
   </body>
 </html>
